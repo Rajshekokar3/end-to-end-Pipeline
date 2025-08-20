@@ -45,3 +45,18 @@
 2025-08-20 19:41:52,702 - Feature Engineering - DEBUG - Bag of words applied and data transformed
 2025-08-20 19:41:52,829 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
 2025-08-20 19:41:52,861 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-20 20:52:53,122 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 20:52:53,133 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 20:52:53,331 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 20:52:53,661 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-20 20:52:53,768 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-20 21:10:55,180 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 21:10:55,229 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 21:10:55,374 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 21:10:55,604 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-20 21:10:55,664 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-20 21:16:08,020 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 21:16:08,050 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 21:16:08,197 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 21:16:08,430 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-20 21:16:08,494 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv

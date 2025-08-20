@@ -5,3 +5,6 @@
 2025-08-18 19:09:40,450 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Rajshekokar3/Dataset-/refs/heads/main/spam.csv
 2025-08-18 19:09:40,465 - data_ingestion - DEBUG - Data preprocessing is cmpleted
 2025-08-18 19:09:40,581 - data_ingestion - DEBUG - Train and test data saged to ./data\raw
+2025-08-20 21:07:32,991 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Rajshekokar3/Dataset-/refs/heads/main/spam.csv
+2025-08-20 21:07:33,020 - data_ingestion - DEBUG - Data preprocessing is cmpleted
+2025-08-20 21:07:33,099 - data_ingestion - DEBUG - Train and test data saged to ./data\raw

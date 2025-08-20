@@ -59,15 +59,21 @@ def transform_text(text):
     return " ".join(text)
 
 
-def preprocess_df(df,text_column='text',target_colum='target'):
+def preprocess_df(df,text_column='text',target_column='target'):
     '''
     Preprocesses the dataframe by encoding the target colum ,removing duplicates and transforming the text column
     '''
     try:
         logger.debug('Starting proprocessing for DataFrame')
         #Encode the target colum
+        before_rows = df.shape[0]
+        df = df.dropna(subset=[target_column, text_column])
+        after_rows = df.shape[0]
+        if before_rows != after_rows:
+            logger.warning("Dropped %d rows with NaN in '%s' or '%s'", before_rows - after_rows, target_column, text_column)
+
         encoder=LabelEncoder()
-        df[target_colum]=encoder.fit_transform(df[target_colum])
+        df[target_column]=encoder.fit_transform(df[target_column])
         logger.debug("Target colum encoded")
 
         #Remove duplicate 
@@ -75,7 +81,7 @@ def preprocess_df(df,text_column='text',target_colum='target'):
         logger.debug("Duplicate removed")
 
         #Apply text transformation to the specific text colum
-        df.loc[text_column]=df[text_column].apply(transform_text)
+        df[text_column]=df[text_column].apply(transform_text)
         logger.debug("Text colum transformed")
 
         return df
