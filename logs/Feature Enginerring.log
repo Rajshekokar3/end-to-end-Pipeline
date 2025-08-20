@@ -1,0 +1,47 @@
+2025-08-20 14:59:05,341 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 2] No such file or directory: 'file_path'
+2025-08-20 15:01:14,854 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 2] No such file or directory: 'file_path'
+2025-08-20 15:19:28,565 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 15:19:28,590 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 15:19:28,781 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 15:19:28,782 - Feature Engineering - ERROR - Unexcepted error occured while saving the data module 'os' has no attribute 'join'
+2025-08-20 15:19:28,783 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: module 'os' has no attribute 'join'
+2025-08-20 15:20:01,309 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 15:20:01,325 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 15:20:01,547 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 15:20:01,554 - Feature Engineering - ERROR - Unexcepted error occured while saving the data [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 15:20:01,555 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:37:07,311 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:37:07,316 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:37:07,406 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:37:07,408 - Feature Engineering - ERROR - Unexcepted error occured while saving the data [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:37:07,409 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:38:06,862 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:38:06,868 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:38:06,950 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:38:06,953 - Feature Engineering - ERROR - Unexcepted error occured while saving the data [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:38:06,953 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:39:03,651 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:39:03,656 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:39:03,747 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:39:03,747 - Feature Engineering - ERROR - Unexcepted error occured while saving the data 'module' object is not callable
+2025-08-20 19:39:03,747 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: 'module' object is not callable
+2025-08-20 19:39:47,492 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:39:47,497 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:39:47,591 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:39:47,591 - Feature Engineering - ERROR - Unexcepted error occured while saving the data module 'os' has no attribute 'patha'
+2025-08-20 19:39:47,591 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: module 'os' has no attribute 'patha'
+2025-08-20 19:40:00,296 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:40:00,300 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:40:00,382 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:40:00,384 - Feature Engineering - ERROR - Unexcepted error occured while saving the data [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:40:00,386 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:40:20,786 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:40:20,791 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:40:20,869 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:40:20,871 - Feature Engineering - ERROR - Unexcepted error occured while saving the data [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:40:20,871 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: [Errno 13] Permission denied: './data\\processed\\train_tfid.csv'
+2025-08-20 19:41:52,624 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-20 19:41:52,627 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-20 19:41:52,702 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-20 19:41:52,829 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-20 19:41:52,861 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv

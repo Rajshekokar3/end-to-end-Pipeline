@@ -1,0 +1,99 @@
+Failed to complete the data transformation process: 'Logger' object has no attribute 'dubyg'
+Failed to complete the data transformation process: 'Logger' object has no attribute 'dubug'
+Data loaded properly
+Error during text normalization: 'Logger' object has no attribute 'dub'
+Failed to complete the data transformation process: 'Logger' object has no attribute 'dub'
+Data loaded properly
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Error during text normalization: name 'stopwords' is not defined
+Failed to complete the data transformation process: name 'stopwords' is not defined
+Data loaded properly
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Error during text normalization: PorterStemmer.stem() missing 1 required positional argument: 'word'
+Failed to complete the data transformation process: PorterStemmer.stem() missing 1 required positional argument: 'word'
+Data loaded properly
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Error during text normalization: Must have equal len keys and value when setting with an iterable
+Failed to complete the data transformation process: Must have equal len keys and value when setting with an iterable
+Data loaded properly
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Error during text normalization: 'Logger' object has no attribute 'dubug'
+Failed to complete the data transformation process: 'Logger' object has no attribute 'dubug'
+Data loaded properly
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Text colum transformed
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Text colum transformed
+Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+Data loaded properly
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Text colum transformed
+Starting proprocessing for DataFrame
+Target colum encoded
+Duplicate removed
+Text colum transformed
+Procesed Data saved to %s ,data_path
+2025-08-20 10:28:42,082 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-20 10:28:42,082 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:28:42,083 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:28:42,086 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:28:58,331 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:28:58,331 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:28:58,332 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:28:58,333 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:29:02,357 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:29:02,381 - data_preprocessing - DEBUG - Procesed Data saved to %s ,data_path
+2025-08-20 10:29:39,954 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-20 10:29:39,954 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:29:39,957 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:29:39,959 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:29:56,228 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:29:56,228 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:29:56,228 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:29:56,229 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:30:00,250 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:30:00,270 - data_preprocessing - DEBUG - Procesed Data saved to /data\interim 
+2025-08-20 10:30:31,481 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-20 10:30:31,483 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:30:31,484 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:30:31,486 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:30:47,262 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:30:47,262 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:30:47,263 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:30:47,265 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:30:51,523 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:30:51,547 - data_preprocessing - DEBUG - Procesed Data saved to \data\interim 
+2025-08-20 10:36:08,686 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-20 10:36:08,686 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:36:08,689 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:36:08,691 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:36:24,713 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:36:24,713 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:36:24,713 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:36:24,714 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:36:28,668 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:36:28,690 - data_preprocessing - DEBUG - Procesed Data saved to /data\interim 
+2025-08-20 10:37:31,885 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-20 10:37:31,885 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:37:31,887 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:37:31,889 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:37:47,789 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:37:47,789 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-20 10:37:47,790 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-20 10:37:47,791 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-20 10:37:52,026 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-20 10:37:52,052 - data_preprocessing - DEBUG - Procesed Data saved to data\interim 

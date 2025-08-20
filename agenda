@@ -1,0 +1,5 @@
+1. Create an end to end ML pipeline (logging ,Exception etc)   (SPAM DETECTION PROJECT)
+2. Automate the pipline using DVC (YAML ,crash course)
+3. Adding configurable params to pipeline.
+4. Experimen tracking using dvcline.
+5. AWS setup with DVC for data versoning

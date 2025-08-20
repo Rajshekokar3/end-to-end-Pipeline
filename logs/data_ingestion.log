@@ -1,0 +1,7 @@
+2025-08-18 19:08:01,170 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Rajshekokar3/Dataset-/refs/heads/main/spam.csv
+2025-08-18 19:08:01,173 - data_ingestion - DEBUG - Data preprocessing is cmpleted
+2025-08-18 19:08:01,176 - data_ingestion - ERROR - Unexcepted error occuped while saving the data: 'module' object is not callable 
+2025-08-18 19:08:01,177 - data_ingestion - ERROR - Failed to  complete dat ingestion process: 'module' object is not callable
+2025-08-18 19:09:40,450 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/Rajshekokar3/Dataset-/refs/heads/main/spam.csv
+2025-08-18 19:09:40,465 - data_ingestion - DEBUG - Data preprocessing is cmpleted
+2025-08-18 19:09:40,581 - data_ingestion - DEBUG - Train and test data saged to ./data\raw
