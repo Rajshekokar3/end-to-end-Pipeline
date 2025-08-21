@@ -70,3 +70,19 @@
 2025-08-21 22:36:15,098 - Feature Engineering - DEBUG - Bag of words applied and data transformed
 2025-08-21 22:36:15,213 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
 2025-08-21 22:36:15,249 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-21 23:31:18,660 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-21 23:31:18,661 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: 'feature_enginerring'
+2025-08-21 23:32:32,270 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-21 23:32:32,271 - Feature Engineering - ERROR - Failed to complete the feature enginerring process: 'feature_enginerring'
+2025-08-21 23:37:51,151 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-21 23:37:51,167 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-21 23:37:51,172 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-21 23:37:51,241 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-21 23:37:51,365 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-21 23:37:51,393 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-21 23:39:42,250 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-21 23:39:42,260 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-21 23:39:42,264 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-21 23:39:42,320 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-21 23:39:42,424 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-21 23:39:42,452 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv

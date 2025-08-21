@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import logging
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+import yaml
 
 
 log_dir="logs"
@@ -30,6 +30,21 @@ file_handler.setFormatter(formattter) # applying the formatter
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
+
+#yamal funcition
+def load_params(params_path:str)-> dict:
+    """ LOad parameters from YAML file. """
+    try:
+        with open(params_path,'r') as file:
+            params=yaml.safe_load(file)
+        logger.debug("Parameters retrieved from %s", params_path)
+        return params
+    except FileNotFoundError:
+        logger.error("File not found: %s",e)
+        raise
+    except Exception as e:
+        logger.error("Unexcepted error: %s",e)
+        raise
 
 def load_data(file_path:str)->pd.DataFrame:
     """
@@ -92,12 +107,14 @@ def save_data(df:pd.DataFrame,file_path:str) ->None:
 
 def main():
     try:
-        max_feature=50
+        params=load_params(params_path='params.yaml')
+        max_features=params['feature_enginerring']['max_features']
+        #max_feature=50
 
         train_data=load_data('./data/interim/train_processed_data.csv')
         test_data=load_data('./data/interim/test_processed_data.csv')
 
-        train_df,test_df=apply_tfid(train_data,test_data,max_feature)
+        train_df,test_df=apply_tfid(train_data,test_data,max_features)
 
         save_data(train_df,os.path.join("./data","processed","train_tfid.csv"))
         save_data(test_df,os.path.join("./data","processed","test_tfid.csv"))

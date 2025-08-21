@@ -2,6 +2,7 @@ import pandas as pd
 import os 
 from sklearn.model_selection import train_test_split
 import logging
+import yaml
 
 #Ensure  the "logs"
 
@@ -29,6 +30,22 @@ file_handler.setFormatter(formattter) # applying the formatter
 
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
+
+
+#yamal funcition
+def load_params(params_path:str)-> dict:
+    """ LOad parameters from YAML file. """
+    try:
+        with open(params_path,'r') as file:
+            params=yaml.safe_load(file)
+        logger.debug("Parameters retrieved from %s", params_path)
+        return params
+    except FileNotFoundError:
+        logger.error("File not found: %s",e)
+        raise
+    except Exception as e:
+        logger.error("Unexcepted error: %s",e)
+        raise
 
 # data  loading 
 
@@ -78,7 +95,9 @@ def save_data(train_data:pd.DataFrame ,test_data:pd.DataFrame,data_path:str)->No
 
 def main():
     try:
-        test_size= 0.2
+        params=load_params(params_path='params.yaml')
+        test_size=params['data_ingestion']['test_size']
+        #test_size= 0.2
         data_path="https://raw.githubusercontent.com/Rajshekokar3/Dataset-/refs/heads/main/spam.csv"
         df=load_data(data_url=data_path)
         final_df=preprocess_data(df)
