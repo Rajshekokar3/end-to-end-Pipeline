@@ -60,3 +60,13 @@
 2025-08-20 21:16:08,197 - Feature Engineering - DEBUG - Bag of words applied and data transformed
 2025-08-20 21:16:08,430 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
 2025-08-20 21:16:08,494 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-21 22:35:58,892 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-21 22:35:58,896 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-21 22:35:58,958 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-21 22:35:59,076 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-21 22:35:59,108 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-21 22:36:15,043 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-21 22:36:15,046 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-21 22:36:15,098 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-21 22:36:15,213 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-21 22:36:15,249 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv

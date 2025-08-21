@@ -117,3 +117,23 @@ Procesed Data saved to %s ,data_path
 2025-08-20 21:14:11,939 - data_preprocessing - DEBUG - Duplicate removed
 2025-08-20 21:14:20,719 - data_preprocessing - DEBUG - Text colum transformed
 2025-08-20 21:14:20,743 - data_preprocessing - DEBUG - Procesed Data saved to data\interim 
+2025-08-21 21:41:16,705 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-21 21:41:16,706 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-21 21:41:16,711 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-21 21:41:16,720 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-21 21:41:33,351 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-21 21:41:33,352 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-21 21:41:33,353 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-21 21:41:33,354 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-21 21:41:37,439 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-21 21:41:37,456 - data_preprocessing - DEBUG - Procesed Data saved to data\interim 
+2025-08-21 22:34:49,303 - data_preprocessing - DEBUG - Data loaded properly
+2025-08-21 22:34:49,303 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-21 22:34:49,323 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-21 22:34:49,333 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-21 22:35:06,006 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-21 22:35:06,007 - data_preprocessing - DEBUG - Starting proprocessing for DataFrame
+2025-08-21 22:35:06,010 - data_preprocessing - DEBUG - Target colum encoded
+2025-08-21 22:35:06,011 - data_preprocessing - DEBUG - Duplicate removed
+2025-08-21 22:35:10,219 - data_preprocessing - DEBUG - Text colum transformed
+2025-08-21 22:35:10,237 - data_preprocessing - DEBUG - Procesed Data saved to data\interim 

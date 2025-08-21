@@ -3,3 +3,8 @@
 3. Adding configurable params to pipeline.
 4. Experimen tracking using dvcline.
 5. AWS setup with DVC for data versoning
+
+Setiig up dvc pipeline (without params)
+6> Create dvc.yamal and add stages to it.
+6>dvc init then do "dvc repro" to test the piepline automation (Check dev dag)
+7> Now git add ,commit,push
