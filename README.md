@@ -26,7 +26,6 @@ The pipeline includes:
 
 ---
 
-## Directory Structure  
 
 # Complete Pipeline  
 
