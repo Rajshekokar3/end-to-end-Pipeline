@@ -7,7 +7,7 @@ stages:
     - data_ingestion.test_size
     outs:
     - data/raw
-  
+
   data_preprocessing:
     cmd: python src/data_preprocessing.py
     deps:
@@ -51,3 +51,10 @@ stages:
 #   x: step
 #params:
 #- dvclive/params.yaml
+params:
+- dvclive/params.yaml
+metrics:
+- dvclive/metrics.json
+plots:
+- dvclive/plots/metrics:
+    x: step

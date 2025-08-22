@@ -16,6 +16,15 @@ Setiig up dvc pipeline (without params)
  11> Now git add, commit ,push
 
 
+Experiments with  DVC:
+12> pip install dvclive
+13> Add the dvcline code block(mentioned below)
+14> Do "dvc exp run", it will create a new dev.yaml(if already not there) and dvcline direcotry(each run will be considered as an exper)
+15> DO "dvc exp show" on terminal to see the experiments or use extension on VS code(insall dvc extension)
+16> DO "dvc exp remove "{exp-name}" to remove exp (optional) | "dvc exp apply {exp anem}" to reproduce pre exp
+17> Change parmas, re run code (produce new experiments)
+18> Now git add ,commit ,push 
+
 
 
 
@@ -42,3 +51,26 @@ Setiig up dvc pipeline (without params)
 data ingestion
     params=load_params(params_path='params.yaml')
     test_size=params['data_ingestion']['test_size']
+
+
+-------------------------------------------------------------------------------
+dvclive code block:
+1> import dvclive and yaml:
+from dvclive import Live
+import yaml
+2> Add the load _paramsfunction and initiate "params" var in main
+3> Add below code blow to main:
+with Live(save_dvc_exp=True) as live:
+    live.log_metric('accuracy',accuracy_score(y_test,y_test))
+    live.log_metric('precision',precision_score(y_test,y_test))
+    live.log_metric('recall',recall_score(y_test,y_test))
+
+    live_log_params(params)
+
+
+
+
+
+
+
+#dvc repro is use for reproducing pipline 

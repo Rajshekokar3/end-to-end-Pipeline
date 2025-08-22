@@ -86,3 +86,21 @@
 2025-08-21 23:39:42,320 - Feature Engineering - DEBUG - Bag of words applied and data transformed
 2025-08-21 23:39:42,424 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
 2025-08-21 23:39:42,452 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-22 23:59:19,132 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-22 23:59:19,158 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-22 23:59:19,163 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-22 23:59:19,315 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-22 23:59:25,305 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-22 23:59:26,056 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-23 00:03:38,058 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-23 00:03:38,108 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-23 00:03:38,143 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-23 00:03:38,251 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-23 00:03:38,388 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-23 00:03:38,430 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
+2025-08-23 00:06:14,744 - Feature Engineering - DEBUG - Parameters retrieved from params.yaml
+2025-08-23 00:06:14,759 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/train_processed_data.csv
+2025-08-23 00:06:14,766 - Feature Engineering - DEBUG - Data loadedand nans filled from ./data/interim/test_processed_data.csv
+2025-08-23 00:06:14,873 - Feature Engineering - DEBUG - Bag of words applied and data transformed
+2025-08-23 00:06:15,066 - Feature Engineering - DEBUG - Data saved to ./data\processed\train_tfid.csv
+2025-08-23 00:06:15,150 - Feature Engineering - DEBUG - Data saved to ./data\processed\test_tfid.csv
